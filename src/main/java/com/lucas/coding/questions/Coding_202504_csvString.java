@@ -1,4 +1,4 @@
-package com.lucas.demo.coding;
+package com.lucas.coding.questions;
 
 import java.util.ArrayList;
 import java.util.Arrays;

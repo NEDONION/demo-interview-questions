@@ -1,4 +1,4 @@
-package com.lucas.demo.glider;
+package com.lucas.coding.glider;
 
 import java.util.Arrays;
 import java.util.List;

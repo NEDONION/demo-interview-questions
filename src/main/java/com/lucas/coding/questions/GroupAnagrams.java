@@ -1,14 +1,13 @@
-package com.lucas.demo.coding;
+package com.lucas.coding.questions;
 
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
-public class Coding4 {
+
+public class GroupAnagrams {
 
 	public static void main(String[] args) {
 		String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};

@@ -1,4 +1,4 @@
-package com.lucas.demo.coding;
+package com.lucas.coding.questions;
 
 
 import java.util.ArrayList;
@@ -59,7 +59,7 @@ time: O(n) eventually, dfs will go through from [1,n]
 space: O(n) use 1-2 container to store
 
  */
-public class Coding2 {
+public class AllPossibleCombinations {
 
 	static List<Integer> current;
 	static List<List<Integer>> ans;

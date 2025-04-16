@@ -1,8 +1,8 @@
-package com.lucas.demo.coding;
+package com.lucas.coding.questions;
 
 import java.util.*;
 
-public class Coding6_0916 {
+public class FindPrefixSuffixPairs {
 
 	public static void main(String[] args) {
 		List<String> words = Arrays.asList("xxz", "xxn", "ab", "abc", "abcd", "abcxxz");

@@ -1,13 +1,11 @@
-package com.lucas.demo.coding;
+package com.lucas.coding.questions;
 
-import static com.lucas.demo.coding.Coding5.ExpressionAddOperators.canGetTarget;
+import static com.lucas.coding.questions.LC282_ExpressionAddOperators.ExpressionAddOperators.canGetTarget;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 
-public class Coding5 {
+public class LC282_ExpressionAddOperators {
 
 	public static void main(String[] args) {
 

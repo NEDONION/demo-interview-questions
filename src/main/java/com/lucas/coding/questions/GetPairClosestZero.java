@@ -1,4 +1,4 @@
-package com.lucas.demo.coding;
+package com.lucas.coding.questions;
 
 /*
 array[]={1,3,-5,7,8,20,-40,6};
@@ -31,7 +31,7 @@ space: O(1)
 
 import java.util.Arrays;
 
-public class Solution {
+public class GetPairClosestZero {
 
 	public static void main(String[] args) {
 		int[] array = {1,3,-5,7,8,20,-40,6};

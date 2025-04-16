@@ -1,6 +1,5 @@
-package com.lucas.demo.coding;
+package com.lucas.coding.stream;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;

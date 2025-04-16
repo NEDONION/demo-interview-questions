@@ -1,4 +1,4 @@
-package com.lucas.demo.coding;
+package com.lucas.coding.stream;
 
 
 /*
@@ -11,7 +11,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
-public class Coding3 {
+public class FindFirst {
 
 	public static void main(String[] args) {
 		List<Integer> numbers = Arrays.asList(1,4,5,2,3);
