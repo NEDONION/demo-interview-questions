@@ -1,0 +1,20 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(²ØùŸ
+@	java:S106"+Replace this use of System.out by a logger.(ş£¾
+Q	java:S125"<This block of commented-out lines of code should be removed.(Û‹‰´
+@	java:S106"+Replace this use of System.out by a logger.(§’€ã
+E	java:S106"+Replace this use of System.out by a logger.(†”‘äüÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Æ‹æêùÿÿÿÿ
+P
+java:S11187":Add a private constructor to hide the implicit public one.(ÈÀŒ²
+m
+java:S3776?"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(½•…ßøÿÿÿÿ
+H
+java:S1172?"-Remove this unused method parameter "multed".(½•…ßøÿÿÿÿ
+E	java:S106B"+Replace this use of System.out by a logger.(«ˆ—·ùÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ

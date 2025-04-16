@@ -1,0 +1,13 @@
+
+m
+java:S1192f"RDefine a constant instead of duplicating this literal "/folder/subfolder" 6 times.(š’¥üÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ñ¨½ÿÿÿÿÿ
+c	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÁÁş
+@	java:S106e"+Replace this use of System.out by a logger.(Ú—¾»
+E	java:S106g"+Replace this use of System.out by a logger.(üú­¼ùÿÿÿÿ
+@	java:S106k"+Replace this use of System.out by a logger.(òú•Ä
+E	java:S106o"+Replace this use of System.out by a logger.(¾İÏ—üÿÿÿÿ
+E	java:S106t"+Replace this use of System.out by a logger.(Ñ·„¢úÿÿÿÿ
+@	java:S106u"+Replace this use of System.out by a logger.(Ùù‰„
+E	java:S106x"+Replace this use of System.out by a logger.(¶Ô“Îıÿÿÿÿ
+@	java:S106|"+Replace this use of System.out by a logger.(””â
