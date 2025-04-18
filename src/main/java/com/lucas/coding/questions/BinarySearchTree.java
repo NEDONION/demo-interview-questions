@@ -1,7 +1,6 @@
 package com.lucas.coding.questions;
 
 public class BinarySearchTree {
-
 	/**
 	 *       5
 	 *      / \
@@ -43,7 +42,6 @@ public class BinarySearchTree {
 		// 返回当前节点（保持树结构）
 		return node;
 	}
-
 
 	// 中序遍历（递增顺序）
 	public void inorder(TreeNode node) {

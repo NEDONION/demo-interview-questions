@@ -18,15 +18,11 @@ public class Coding1 {
 	public static void main(String[] args) {
 		List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 
-
+		// 1 2 3 4 5 -> 2 4
 		List<Integer> evens = numbers.stream()
-				.filter(
-						n -> n % 2 == 0
-				)
-				.collect(Collectors.toList());
-
+				.filter(n -> n % 2 == 0)
+				.toList();
 		System.out.println(evens);
-
 
 		// 1 2 3 2 1 ->
 		// {1:2, 2:2, 3:1}
@@ -40,8 +36,5 @@ public class Coding1 {
 				));
 
 		System.out.println(result);
-
 	}
-
-
 }
