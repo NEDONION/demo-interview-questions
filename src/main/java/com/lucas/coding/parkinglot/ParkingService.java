@@ -26,7 +26,13 @@ public class ParkingService {
 		return lot != null ? lot.getAvailableSpots() : 0;
 	}
 
-	// 停车操作
+	/***
+	 * 1. 检查楼层是否存在，以及是否还有空位
+	 * 2. 如果车辆未注册，添加到车辆表
+	 * 3. 创建 Ticket（记录车牌、入场时间、楼层）
+	 * 4. 存入 ticket 表
+	 * 5. 对应楼层的 availableSpots -1
+	 */
 	public Ticket parkVehicle(String plateNumber, VehicleType type, int level) {
 		ParkingLot lot = parkingLotTable.get(level);
 		if (lot == null || lot.getAvailableSpots() <= 0) {
@@ -52,7 +58,14 @@ public class ParkingService {
 		return ticket;
 	}
 
-	// 出场并计费
+	/***
+	 1. 查出 ticket 信息（entry_time, vehicle_id）
+	 2. 设置 exit_time = now
+	 3. 根据 vehicle type 获取单价
+	 4. 计算 price = 按小时计费，向上取整
+	 5. 更新 ticket 中的 price
+	 6. 更新对应楼层的 availableSpots +1
+	 */
 	public Ticket clearSpot(String ticketId) {
 		Ticket ticket = ticketTable.get(ticketId);
 		if (ticket == null) {
