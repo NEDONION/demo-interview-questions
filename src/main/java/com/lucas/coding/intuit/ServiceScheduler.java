@@ -19,22 +19,12 @@ import java.util.concurrent.locks.ReentrantLock;
  * - Regular customers: serviced in the order they arrive.
  * - VIP customers: given higher priorities compared to Regular customers.
  *
- * ticket -> id -> uuid for pk
- * sequential number: int -> auto-increased
- * meta data..
- * customerId,
- * ...
-
- * type/class -> Enum CustomerTier (Regular, VIP,...) -> String
- *
  *Do the following,
  * Design class for customer and ServiceScheduler with required high-level characteristics.
  * Implement the ServiceScheduler to serve ALL VIP customers before serving regular customers.
  * Implement two methods checkIn(Customer) getNextCustomer()
  * Implement the scheduler to make sure 2:1 VIP vs. Regular customer processing rate.
  * Modify getNextCustomer() method to implement the customer processing rate.
- *
- *  customer processing rate. -> rate limiter
  *
  */
 
